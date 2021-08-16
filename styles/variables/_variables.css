@@ -1,0 +1,12 @@
+:root {
+    --black: #000;
+    --orange: #f1a619;
+    --white: #fff;
+    --soft-white: #f7f7f7;
+    --gray: #ccc;
+    --text-gray: rgb(182, 177, 177);
+    --green: #1be600;
+    --red: rgb(248, 10, 10);
+    --border-gray: rgba(255, 255, 255, 0.4);
+    --soft-black: rgb(92, 90, 90);
+}

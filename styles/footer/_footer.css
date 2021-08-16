@@ -1,0 +1,53 @@
+.footer {
+    background-image: url("../../images/bg-footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+}
+.footer-text {
+    font-size: 1.5rem;
+    color: var(--white);
+    line-height: 2.5rem;
+}
+.footer-title {
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.newsletter-input,
+.newsletter-button {
+    border: 0 !important;
+}
+.newsletter-input {
+    width: 100%;
+}
+.newsletter-button {
+    padding: 1.3rem;
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+.newsletter-button:hover {
+    background-color: var(--gray);
+}
+.footer-menu{
+    padding-right: 2rem;
+}
+.footer-menu-item {
+    padding: 1rem;
+}
+.footer-menu-link {
+    font-size: 1.5rem;
+    color: var(--soft-white);
+    opacity: 0.6;
+}
+.footer-menu-link:hover {
+    color: var(--orange);
+}
+.text-soft{
+    color: var(--soft-black);
+}
+.contact-item{
+    font-size: 1.5rem;
+    color: var(--white);
+}

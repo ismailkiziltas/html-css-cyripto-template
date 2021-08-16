@@ -1,0 +1,240 @@
+/* @SECTİON BANNER */
+.section-banner {
+    background-repeat: no-repeat;
+    background-image: url(../../../images/slide-01.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+.slide-content {
+    text-align: center;
+    padding: 15rem 0;
+}
+.slide-content .slide-title {
+    font-size: 6rem;
+    color: var(--white);
+}
+.slide-content .slide-text {
+    margin: 0 auto;
+    line-height: 3rem;
+    width: 80%;
+    font-size: 1.6rem;
+    color: var(--text-gray);
+}
+.btn {
+    padding: 1.5rem 4rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    border: 0;
+    font-weight: 800;
+}
+.btn-started {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.btn-started:hover {
+    background-color: var(--black);
+}
+.btn-contact:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+/* @SECTİON ABOUT */
+.section-about {
+    background-color: var(--white);
+    padding: 10rem 0;
+}
+.section-about .about-title {
+    font-size: 2rem;
+}
+.section-about .about-text {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+    line-height: 2.2rem;
+}
+
+/* @SECTİON BİTCOİN */
+.section-bitcoin {
+    background-color: var(--soft-white);
+    padding: 10rem 0;
+}
+.content-title {
+    font-size: 3rem;
+}
+.content-text {
+    color: var(--text-gray);
+}
+.card {
+    padding: 4rem 5rem;
+    background-color: var(--white);
+}
+.card:hover {
+    box-shadow: 0px 8px 48px 2px rgb(30 13 13 / 12%);
+}
+.card-text {
+    line-height: 2rem;
+    color: var(--text-gray);
+}
+.section-works {
+    background-color: var(--white);
+    padding: 10rem 0;
+}
+
+/* @SECTİON WORKS */
+
+.icon {
+    background-color: var(--orange);
+    padding: 4rem;
+}
+.icon img {
+    width: 10rem;
+}
+.icon:hover {
+    background-color: var(--black);
+}
+.icon-content h4 {
+    margin-bottom: 1rem;
+}
+.icon-content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--text-gray);
+}
+/* @SECTİON CYRIPTO TABLE */
+.section-cyripto-table {
+    background-color: var(--soft-white);
+    padding: 10rem 0;
+}
+.color-red {
+    color: var(--red) !important;
+}
+.color-green {
+    color: var(--green) !important;
+}
+.color-gray {
+    color: var(--gray);
+}
+table {
+    width: 100%;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-spacing: 0 !important;
+}
+table thead {
+    background-color: var(--black);
+}
+table thead tr th {
+    color: var(--white);
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+table tbody tr th {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+/* @SECTION EXPERTS */
+.section-experts,
+.section-news {
+    background-color: var(--white);
+    padding: 10rem 0;
+}
+
+.social-item {
+    padding: 1.5rem;
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+    margin-left: 1rem;
+    color: var(--gray);
+}
+.social-item:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.profile-card {
+    position: relative;
+}
+.profile-info {
+    width: 100%;
+    background-color: var(--black);
+}
+
+.profile-info span {
+    color: var(--white);
+}
+.profile-info i {
+    color: var(--orange);
+}
+.profile-info {
+    position: absolute;
+    bottom: 12.5rem;
+    left: 0;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+.profile-card > a:hover + .profile-info {
+    display: block;
+}
+
+/* @SECTİON POINTS */
+.section-points {
+    background-image: url("../../../images/bg-counter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 5rem 0;
+}
+.section-points::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    opacity: 0.5;
+}
+.ball {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    padding-top: 5rem;
+}
+.ball::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 4px solid var(--border-gray);
+}
+.ball > h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--orange);
+}
+.ball > span {
+    color: var(--white);
+    font-weight: 700;
+}
+/* @SECTION NEWS */
+.news-detail {
+    padding: 0 1rem;
+}
+.news-detail:first-child {
+    padding: 0;
+    padding-right: 1rem;
+}
+.news-detail > i {
+    color: var(--orange);
+}
+.news-card .news-text {
+    line-height: 2rem;
+    color: var(--gray);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,42 @@
+.active {
+    color: var(--orange) !important;
+}
+.menu {
+    display: flex;
+}
+.menu .menu-item {
+    position: relative;
+}
+nav .menu-link {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 3rem 2.5rem;
+}
+nav .menu-link:hover {
+    color: var(--orange) !important;
+}
+nav .menu-item:hover > .dropdown {
+    display: block !important;
+}
+.dropdown {
+    display: none;
+    width: 22rem;
+    background-color: var(--soft-white);
+    position: absolute;
+    top: 7rem;
+    z-index: 1;
+}
+.dropdown .dropdown-item {
+    border-bottom: 1px solid var(--soft-white);
+}
+.dropdown .dropdown-link {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #000000;
+}
+.dropdown .dropdown-link:hover {
+    color: var(--orange);
+    background-color: var(--white);
+}
