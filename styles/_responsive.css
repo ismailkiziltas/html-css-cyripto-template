@@ -1,12 +1,31 @@
-@media (min-width: 576px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 992px) {
-    body{
-        font-size:8px;
+@media (max-width: 991px) {
+    html{
+        font-size: 8px !important;
+    }
+    .slide-content .slide-title{
+        font-size: 4rem !important;
+    }
+    .header {
+        padding: 2rem 0;
+    }
+    .header nav {
+        display: none;
+    }
+    .hamburger {
+        display: block !important;
+    }
+    .md-py-4{
+        padding: 4rem 0;
+    }
+    .md-mb-4{
+        margin-bottom: 4rem;
+    }
+    table thead tr th,
+    table tbody tr th {
+        font-size: 1rem !important;
     }
 }
-@media (min-width: 1200px) {
-    
-}
+
+@media (min-width:992px) and (min-width: 1199px) {}
+
+@media (min-width: 1200px) {}

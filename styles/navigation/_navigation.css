@@ -40,3 +40,11 @@ nav .menu-item:hover > .dropdown {
     color: var(--orange);
     background-color: var(--white);
 }
+.hamburger{
+    display: none;
+    padding: 0 1rem;
+}
+.hamburger i {
+    font-size: 2rem;
+    color: var(--orange);
+}
